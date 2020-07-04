@@ -1,0 +1,22 @@
+{
+  "name": "OminiStack",
+  "version": "1.0.0",
+  "description": "fazendo um exemplo",
+  "main": "index.js",
+  "author": "William Rocha Silva",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "sqlite3": "^5.0.0",
+    "yarn": "^1.22.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  }
+}
